@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grocery_items">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Orange</item>
+        <item>Carrot</item>
+        <item>Tomato</item>
+    </string-array>
+</resources>
