@@ -76,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private int getContrastColor(int backgroundColor) {
-        // Calculate the contrast color based on the background color
         double luminance = (0.299 * Color.red(backgroundColor) + 0.587 * Color.green(backgroundColor) + 0.114 * Color.blue(backgroundColor)) / 255;
         return luminance > 0.5 ? Color.BLACK : Color.WHITE;
     }
