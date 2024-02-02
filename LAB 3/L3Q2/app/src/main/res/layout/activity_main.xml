@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:stepSize="1.0"
+        android:numStars="5"/>
+
+
+    <EditText
+        android:id="@+id/commentEditText"
+        android:layout_width="390dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/ratingBar"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Add your comment here" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="395dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/commentEditText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Your Name" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="395dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/nameEditText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Your Email" />
+
+    <EditText
+        android:id="@+id/mobileEditText"
+        android:layout_width="395dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Your Mobile Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_below="@id/mobileEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Submit Feedback" />
+</RelativeLayout>
