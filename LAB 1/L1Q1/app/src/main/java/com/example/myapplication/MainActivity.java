@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
         String profession = editTextProfession.getText().toString().trim();
 
         if (!name.isEmpty() && !email.isEmpty() && !profession.isEmpty()) {
-            // You can save the user's professional details in your preferred way (e.g., database, preferences).
-            // For now, we'll just display a toast message with the user's details.
             String message = getString(R.string.label_name) + ": " + name + "\n" +
                     getString(R.string.label_email) + ": " + email + "\n" +
                     getString(R.string.label_profession) + ": " + profession;
