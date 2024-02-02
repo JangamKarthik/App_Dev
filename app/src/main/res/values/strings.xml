@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="label_name">Name:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_profession">Profession:</string>
+    <string name="save_button">Save</string>
+</resources>
