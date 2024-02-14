@@ -1,0 +1,23 @@
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayoutx">
+
+    <Spinner
+        android:id="@+id/backgroundSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:entries="@array/background_options" />
+
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backgroundSpinner"
+        android:layout_marginTop="31dp"
+        android:text="Apply Background" />
+</RelativeLayout>
