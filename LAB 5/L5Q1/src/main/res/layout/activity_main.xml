@@ -1,0 +1,52 @@
+<!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Buttons -->
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="8dp"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_toRightOf="@id/startButton"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"/>
+
+    <!-- SeekBar -->
+    <Button
+        android:id="@+id/rewindButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startButton"
+        android:layout_marginTop="221dp"
+        android:text="Rewind" />
+
+    <Button
+        android:id="@+id/forwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pauseButton"
+        android:layout_marginTop="-261dp"
+        android:text="Forward" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forwardButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>
