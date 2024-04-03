@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SurveyApp</string>
+    <string name="color_prompt">What is your favorite color?</string>
+    <string name="submit">Submit</string>
+</resources>
