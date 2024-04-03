@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">L9Q1</string>
+    <string-array name="color_array">
+        <item>Black</item>
+        <item>White</item>
+        <item>Gray</item>
+        <item>Brown</item>
+        <item>Pink</item>
+        <item>Cyan</item>
+    </string-array>
+
+</resources>
