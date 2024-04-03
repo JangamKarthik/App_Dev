@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">L6Q2</string>
+    <string-array name="song_titles">
+        <item>Song 1</item>
+        <item>Song 2</item>
+        <item>Song 3</item>
+    </string-array>
+</resources>
